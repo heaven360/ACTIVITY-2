@@ -1,0 +1,47 @@
+*{
+
+	font-family: "Century Gothic";
+
+}
+
+body{
+
+	background-color: #f6c0d0;
+}
+
+h1{
+
+	color: #2978a0;
+	font-size: 90px;
+}
+
+.imageClass {
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; 
+}
+
+header * {
+	display: inline;
+	vertical-align: top;
+}
+
+nav p a{
+	text-decoration: none;
+	padding-right: 20px;
+    border: blue 0.5px solid;
+    margin: 5px;
+}
+
+nav p a:hover{
+
+	border:#2978a0 0.5px solid;
+}
+
+nav{
+	position: fixed;
+	background-color: #000411;
+	top: 0;
+	width: 100%;
+}
